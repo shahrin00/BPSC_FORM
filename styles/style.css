@@ -1,0 +1,206 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #184B75;
+}
+
+
+/* Header */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B3CBE7;
+    padding: 10px;
+}
+.header-left-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#title-color {
+    color: #184B75;
+}
+nav {
+    background-color: #184B75;
+    color: #2FA2D4;
+    font-size: 24px;
+    padding: 8px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+}
+#header-ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#li-style-none {
+    list-style-type: none;
+}
+/* Main */
+.bpsc-form-no {
+    background-color: #8AAED5;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 5px;
+}
+
+.form-body {
+    background-color: #C9DCED;
+    border: 2px solid #8f8f8f;
+}
+.bottom-line {
+    border-bottom: 2px solid #707070;
+    padding: 10px;
+    margin: 0 10px
+}
+
+.form-body  h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+.input-container-left, .input-container-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.input-left {
+    width:30%
+}
+.input-right {
+    width:70%
+}
+
+input[type=text],input[type=number],textarea , input[type=tel]{
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #9b9b9b;
+
+}
+textarea{
+    height:60px ;
+}
+select {
+    width:31%;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #9b9b9b;
+}
+
+#employ-st-select {
+    width:95%;
+}
+#nationalid{
+    width: 70%;
+}
+
+
+
+/* section part 2 */
+
+fieldset{
+    background-color: #B3CBE7;
+    border: 1 px solid #bebebe;
+    padding: 0 0 10px 0;
+    margin: 10px;
+}
+
+
+.graduation{
+    display: flex;
+  align-items: flex-start;
+  background-color: #88AFDA; 
+   
+}
+.sub-container {
+     background-color: #88AFDA; 
+
+}
+
+.border{
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+.input-right-sectiontwo{
+    width:40% ;
+}
+#selectiontwo{
+    width: 80%;
+}
+
+/* section part three-----------*/
+#masters-applicable{
+    padding: 10px;
+}
+
+
+/* section part 4...................... */
+.buttondiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttondiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+/* section adresss 5---------------------------- */
+.adressdivider{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:25px;
+    margin: 5px;
+    border:1px solid #707070;
+    
+   
+
+    
+}
+
+
+
+.adresstitle{
+
+
+    display: flex;
+  align-items: flex-start;
+  background-color: #8cc9e3;
+  margin-bottom: 5px;
+}
+
+
+.addressbg{
+    background-color: #B3CBE7;
+    border:1px solid #707070;
+    border-top: 0;
+    border-bottom: 0;
+   
+}
+
+#adressid{
+    width: 100%;
+}
